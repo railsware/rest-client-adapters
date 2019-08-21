@@ -152,12 +152,7 @@ RSpec.describe RestClient::EmHttpRequest do
           let(:max_redirects) { 1 }
 
           specify do
-            case RestClient.major_version
-            when 1
-              expect { subject }.to raise_error(RestClient::MaxRedirectsReached)
-            when 2
-              expect { subject }.to raise_error(RestClient::Found)
-            end
+            expect { subject }.to raise_error(RestClient::Found)
           end
         end
 
