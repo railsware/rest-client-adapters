@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "em-rest-client"
+  spec.name          = "rest-client-adapters"
   spec.version       = "0.1.0"
   spec.authors       = ["Andriy Yanko"]
-  spec.email         = ["andriy.yanko@railsware.com"]
+  spec.email         = ["andriy.yanko@gmail.com"]
 
-  spec.summary       = %q{EventMachine::HttpRequest adapter for HTTP REST client}
-  spec.homepage      = "https://github.com/railsware/em-rest-client"
+  spec.summary       = %q{REST Client HTTP Adapters}
+  spec.homepage      = "https://github.com/railsware/rest-client-adapters"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

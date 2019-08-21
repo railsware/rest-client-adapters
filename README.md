@@ -1,4 +1,4 @@
-# EM-REST-Client
+# REST-Client Adapters
 
 
 This gem allows to use different HTTP implementation in RestClient with next adapters:
@@ -12,7 +12,7 @@ This gem allows to use different HTTP implementation in RestClient with next ada
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'em-rest-client'
+gem 'rest-client-adapters'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install em-rest-client
+    $ gem install rest-client-adapters
 
 ## Usage
 
