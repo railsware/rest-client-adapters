@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "rest-client-adapters"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Andriy Yanko"]
   spec.email         = ["andriy.yanko@gmail.com"]
 
-  spec.summary       = %q{REST Client HTTP Adapters}
+  spec.summary       = %q{RestClient Adapters}
   spec.homepage      = "https://github.com/railsware/rest-client-adapters"
   spec.license       = "MIT"
 

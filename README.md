@@ -1,4 +1,4 @@
-# REST-Client Adapters[![Build Status](https://travis-ci.org/railsware/rest-client-adapters.svg?branch=master)](https://travis-ci.org/railsware/rest-client-adapters)
+# RestClient Adapters [![Build Status](https://travis-ci.org/railsware/rest-client-adapters.svg?branch=master)](https://travis-ci.org/railsware/rest-client-adapters)
 
 
 This gem allows to use different HTTP implementation in RestClient with next adapters:
